@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="./scss/owl.carousel.css">
     <link rel="stylesheet" href="./scss/owl.theme.default.css">
-    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./dis/css/style.min.css">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
@@ -20,7 +20,10 @@
 <body>
     <header>
         <div class="header-wrapper">
-            <div class="header-items"><i class="material-icons">menu</i></div>
+            <div class="header-items" id="header-menu" onclick="onClickMenu()">
+                <i class="material-icons" id="menu">menu</i>
+                <i class="material-icons" id="cross">close </i>
+            </div>
             <div class="header-items">Particles</div>
             <div class="header-items"></div>
         </div>
@@ -118,6 +121,10 @@
             }
         }
     })
+
+    function onClickMenu() {
+    document.getElementById("header-menu").classList.toggle("change");
+}
     </script>
 </body>
 </html>
