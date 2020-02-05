@@ -1,0 +1,16 @@
+@import 'header';
+@import 'variables';
+@import 'text';
+@import 'images';
+@import 'about';
+@import 'footer';
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contacme-container{
+    background-image: url("airport.svg");
+}

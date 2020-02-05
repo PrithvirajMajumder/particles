@@ -1,0 +1,17 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .button-wrapper{
+        margin-top: 10px;
+        button{
+            border: 1px solid $borderColor;
+            background: #ffffff;
+            color: $textColor;
+            font-family: $mainFont;
+            width: 12rem;
+            height: 4rem;
+            font-size: 18px;
+        }
+    }
+}

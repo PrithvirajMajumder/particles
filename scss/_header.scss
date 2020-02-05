@@ -1,0 +1,17 @@
+@import 'variables';
+
+header{
+    
+    padding: 20px 20px;
+    background-color: $backgroundColor;
+    .header-wrapper{
+        font-family: $mainFont;
+        color: $textColor;
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-grow: 5rem;
+    }
+}
