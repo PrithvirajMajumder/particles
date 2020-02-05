@@ -29,4 +29,22 @@ header {
     display: block;
     color: $textColor;
   }
+  nav {
+    display: flex;
+    background-color: $backgroundColor;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      height: 90vh;
+      position: relative;
+      li {
+        list-style: none;
+        text-decoration: none;
+        color: $textColor;
+        font-family: $mainFont;
+      }
+    }
+  }
 }
